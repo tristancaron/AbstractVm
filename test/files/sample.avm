@@ -1,0 +1,80 @@
+; -------------
+; Comment test -
+; -------------
+
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+push int32(500)
+
+dump
+
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+
+dump
+
+assert int32(13000)
+
+; Test 2
+push int8(4)
+push int16(20000)
+push int32(54345)
+push float(9054.7)
+push double(654659089054.654)
+
+div
+mul
+sub
+add
+
+dump
+
+assert double(3929169162271.23876953125)
+
+exit

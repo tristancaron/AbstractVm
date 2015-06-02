@@ -1,0 +1,5 @@
+push int32(0)
+push int32(6)
+dump
+div
+exit
